@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF2AC7412AEB9CED0021FEAC /* Smart_Irrigation_SystemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2AC7402AEB9CED0021FEAC /* Smart_Irrigation_SystemApp.swift */; };
+		FF2AC7432AEB9CED0021FEAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2AC7422AEB9CED0021FEAC /* ContentView.swift */; };
+		FF2AC7452AEB9CF50021FEAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2AC7442AEB9CF50021FEAC /* Assets.xcassets */; };
+		FF2AC7482AEB9CF50021FEAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2AC7472AEB9CF50021FEAC /* Preview Assets.xcassets */; };
+		FF2AC7522AEB9CF60021FEAC /* Smart_Irrigation_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2AC7512AEB9CF60021FEAC /* Smart_Irrigation_SystemTests.swift */; };
+		FF2AC75C2AEB9CF60021FEAC /* Smart_Irrigation_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2AC75B2AEB9CF60021FEAC /* Smart_Irrigation_SystemUITests.swift */; };
+		FF2AC75E2AEB9CF60021FEAC /* Smart_Irrigation_SystemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2AC75D2AEB9CF60021FEAC /* Smart_Irrigation_SystemUITestsLaunchTests.swift */; };
+		FF3BEF212AEE4B82004057C9 /* Home1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3BEF202AEE4B82004057C9 /* Home1View.swift */; };
+		FFB9A8232AEFA15800493525 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9A8222AEFA15800493525 /* ViewModel.swift */; };
+		FFCCBE9B2AED235700C79BF1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCBE9A2AED235700C79BF1 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF2AC74E2AEB9CF60021FEAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2AC7352AEB9CED0021FEAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF2AC73C2AEB9CED0021FEAC;
+			remoteInfo = "Smart Irrigation System";
+		};
+		FF2AC7582AEB9CF60021FEAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2AC7352AEB9CED0021FEAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF2AC73C2AEB9CED0021FEAC;
+			remoteInfo = "Smart Irrigation System";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF2AC73D2AEB9CED0021FEAC /* SIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2AC7402AEB9CED0021FEAC /* Smart_Irrigation_SystemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Irrigation_SystemApp.swift; sourceTree = "<group>"; };
+		FF2AC7422AEB9CED0021FEAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF2AC7442AEB9CF50021FEAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF2AC7472AEB9CF50021FEAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF2AC74D2AEB9CF60021FEAC /* SMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2AC7512AEB9CF60021FEAC /* Smart_Irrigation_SystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Irrigation_SystemTests.swift; sourceTree = "<group>"; };
+		FF2AC7572AEB9CF60021FEAC /* SMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2AC75B2AEB9CF60021FEAC /* Smart_Irrigation_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Irrigation_SystemUITests.swift; sourceTree = "<group>"; };
+		FF2AC75D2AEB9CF60021FEAC /* Smart_Irrigation_SystemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Irrigation_SystemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF3BEF202AEE4B82004057C9 /* Home1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home1View.swift; sourceTree = "<group>"; };
+		FFB9A8222AEFA15800493525 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FFCCBE9A2AED235700C79BF1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF2AC73A2AEB9CED0021FEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2AC74A2AEB9CF60021FEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2AC7542AEB9CF60021FEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF2AC7342AEB9CED0021FEAC = {
+			isa = PBXGroup;
+			children = (
+				FF2AC73F2AEB9CED0021FEAC /* SIS */,
+				FF2AC7502AEB9CF60021FEAC /* Smart Irrigation SystemTests */,
+				FF2AC75A2AEB9CF60021FEAC /* Smart Irrigation SystemUITests */,
+				FF2AC73E2AEB9CED0021FEAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF2AC73E2AEB9CED0021FEAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF2AC73D2AEB9CED0021FEAC /* SIS.app */,
+				FF2AC74D2AEB9CF60021FEAC /* SMSTests.xctest */,
+				FF2AC7572AEB9CF60021FEAC /* SMSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF2AC73F2AEB9CED0021FEAC /* SIS */ = {
+			isa = PBXGroup;
+			children = (
+				FF2AC7402AEB9CED0021FEAC /* Smart_Irrigation_SystemApp.swift */,
+				FF2AC7422AEB9CED0021FEAC /* ContentView.swift */,
+				FF3BEF202AEE4B82004057C9 /* Home1View.swift */,
+				FFCCBE9A2AED235700C79BF1 /* SettingsView.swift */,
+				FFB9A8222AEFA15800493525 /* ViewModel.swift */,
+				FF2AC7442AEB9CF50021FEAC /* Assets.xcassets */,
+				FF2AC7462AEB9CF50021FEAC /* Preview Content */,
+			);
+			path = SIS;
+			sourceTree = "<group>";
+		};
+		FF2AC7462AEB9CF50021FEAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF2AC7472AEB9CF50021FEAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF2AC7502AEB9CF60021FEAC /* Smart Irrigation SystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF2AC7512AEB9CF60021FEAC /* Smart_Irrigation_SystemTests.swift */,
+			);
+			path = "Smart Irrigation SystemTests";
+			sourceTree = "<group>";
+		};
+		FF2AC75A2AEB9CF60021FEAC /* Smart Irrigation SystemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF2AC75B2AEB9CF60021FEAC /* Smart_Irrigation_SystemUITests.swift */,
+				FF2AC75D2AEB9CF60021FEAC /* Smart_Irrigation_SystemUITestsLaunchTests.swift */,
+			);
+			path = "Smart Irrigation SystemUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF2AC73C2AEB9CED0021FEAC /* SMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2AC7612AEB9CF60021FEAC /* Build configuration list for PBXNativeTarget "SMS" */;
+			buildPhases = (
+				FF2AC7392AEB9CED0021FEAC /* Sources */,
+				FF2AC73A2AEB9CED0021FEAC /* Frameworks */,
+				FF2AC73B2AEB9CED0021FEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMS;
+			packageProductDependencies = (
+			);
+			productName = "Smart Irrigation System";
+			productReference = FF2AC73D2AEB9CED0021FEAC /* SIS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF2AC74C2AEB9CF60021FEAC /* SMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2AC7642AEB9CF60021FEAC /* Build configuration list for PBXNativeTarget "SMSTests" */;
+			buildPhases = (
+				FF2AC7492AEB9CF60021FEAC /* Sources */,
+				FF2AC74A2AEB9CF60021FEAC /* Frameworks */,
+				FF2AC74B2AEB9CF60021FEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF2AC74F2AEB9CF60021FEAC /* PBXTargetDependency */,
+			);
+			name = SMSTests;
+			productName = "Smart Irrigation SystemTests";
+			productReference = FF2AC74D2AEB9CF60021FEAC /* SMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF2AC7562AEB9CF60021FEAC /* SMSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2AC7672AEB9CF60021FEAC /* Build configuration list for PBXNativeTarget "SMSUITests" */;
+			buildPhases = (
+				FF2AC7532AEB9CF60021FEAC /* Sources */,
+				FF2AC7542AEB9CF60021FEAC /* Frameworks */,
+				FF2AC7552AEB9CF60021FEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF2AC7592AEB9CF60021FEAC /* PBXTargetDependency */,
+			);
+			name = SMSUITests;
+			productName = "Smart Irrigation SystemUITests";
+			productReference = FF2AC7572AEB9CF60021FEAC /* SMSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF2AC7352AEB9CED0021FEAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FF2AC73C2AEB9CED0021FEAC = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					FF2AC74C2AEB9CF60021FEAC = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FF2AC73C2AEB9CED0021FEAC;
+					};
+					FF2AC7562AEB9CF60021FEAC = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FF2AC73C2AEB9CED0021FEAC;
+					};
+				};
+			};
+			buildConfigurationList = FF2AC7382AEB9CED0021FEAC /* Build configuration list for PBXProject "SIS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF2AC7342AEB9CED0021FEAC;
+			packageReferences = (
+			);
+			productRefGroup = FF2AC73E2AEB9CED0021FEAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF2AC73C2AEB9CED0021FEAC /* SMS */,
+				FF2AC74C2AEB9CF60021FEAC /* SMSTests */,
+				FF2AC7562AEB9CF60021FEAC /* SMSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF2AC73B2AEB9CED0021FEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2AC7482AEB9CF50021FEAC /* Preview Assets.xcassets in Resources */,
+				FF2AC7452AEB9CF50021FEAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2AC74B2AEB9CF60021FEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2AC7552AEB9CF60021FEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF2AC7392AEB9CED0021FEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCCBE9B2AED235700C79BF1 /* SettingsView.swift in Sources */,
+				FF3BEF212AEE4B82004057C9 /* Home1View.swift in Sources */,
+				FF2AC7432AEB9CED0021FEAC /* ContentView.swift in Sources */,
+				FFB9A8232AEFA15800493525 /* ViewModel.swift in Sources */,
+				FF2AC7412AEB9CED0021FEAC /* Smart_Irrigation_SystemApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2AC7492AEB9CF60021FEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2AC7522AEB9CF60021FEAC /* Smart_Irrigation_SystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2AC7532AEB9CF60021FEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2AC75C2AEB9CF60021FEAC /* Smart_Irrigation_SystemUITests.swift in Sources */,
+				FF2AC75E2AEB9CF60021FEAC /* Smart_Irrigation_SystemUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF2AC74F2AEB9CF60021FEAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF2AC73C2AEB9CED0021FEAC /* SMS */;
+			targetProxy = FF2AC74E2AEB9CF60021FEAC /* PBXContainerItemProxy */;
+		};
+		FF2AC7592AEB9CF60021FEAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF2AC73C2AEB9CED0021FEAC /* SMS */;
+			targetProxy = FF2AC7582AEB9CF60021FEAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF2AC75F2AEB9CF60021FEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF2AC7602AEB9CF60021FEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF2AC7622AEB9CF60021FEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SIS/Preview Content\"";
+				DEVELOPMENT_TEAM = 294CTV7XHB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ibrahim.dev.SIS;
+				PRODUCT_NAME = SIS;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF2AC7632AEB9CF60021FEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SIS/Preview Content\"";
+				DEVELOPMENT_TEAM = 294CTV7XHB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ibrahim.dev.SIS;
+				PRODUCT_NAME = SIS;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF2AC7652AEB9CF60021FEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 294CTV7XHB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ibrahim.dev.Smart-Irrigation-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SMS";
+			};
+			name = Debug;
+		};
+		FF2AC7662AEB9CF60021FEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 294CTV7XHB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ibrahim.dev.Smart-Irrigation-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SMS";
+			};
+			name = Release;
+		};
+		FF2AC7682AEB9CF60021FEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ibrahim.dev.Smart-Irrigation-SystemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Irrigation System";
+			};
+			name = Debug;
+		};
+		FF2AC7692AEB9CF60021FEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ibrahim.dev.Smart-Irrigation-SystemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Irrigation System";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF2AC7382AEB9CED0021FEAC /* Build configuration list for PBXProject "SIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2AC75F2AEB9CF60021FEAC /* Debug */,
+				FF2AC7602AEB9CF60021FEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2AC7612AEB9CF60021FEAC /* Build configuration list for PBXNativeTarget "SMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2AC7622AEB9CF60021FEAC /* Debug */,
+				FF2AC7632AEB9CF60021FEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2AC7642AEB9CF60021FEAC /* Build configuration list for PBXNativeTarget "SMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2AC7652AEB9CF60021FEAC /* Debug */,
+				FF2AC7662AEB9CF60021FEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2AC7672AEB9CF60021FEAC /* Build configuration list for PBXNativeTarget "SMSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2AC7682AEB9CF60021FEAC /* Debug */,
+				FF2AC7692AEB9CF60021FEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF2AC7352AEB9CED0021FEAC /* Project object */;
+}
